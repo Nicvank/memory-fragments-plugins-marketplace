@@ -1,0 +1,57 @@
+# Memory Visions 插件市场索引
+# 此文件定义了市场中可用的插件列表
+# source_type: github (独立仓库) | embedded (本仓库内) | local (本地路径)
+
+name: "Official Memory Visions Plugins"
+description: "官方插件市场 — 记忆碎片应用的扩展插件集合"
+version: "1.0.0"
+homepage: "https://github.com/Nicvank/mv-plugins-marketplace"
+
+plugins:
+  - name: "heatmap"
+    display_name: "记忆热力图"
+    description: "GitHub 风格的日历热力图，可视化记忆活动分布"
+    version: "1.4.0"
+    author: "Memory Visions Team"
+    type: "visualization"
+    license: "MIT"
+    icon: "📈"
+    source_type: "github"
+    source_url: "https://github.com/Nicvank/mv-plugin-heatmap"
+    tags: ["可视化", "日历", "热力图"]
+
+  - name: "data-export"
+    display_name: "数据导出"
+    description: "支持 JSON/CSV/Markdown 等多格式数据导出"
+    version: "1.0.0"
+    author: "Memory Visions Team"
+    type: "tool"
+    license: "MIT"
+    icon: "📦"
+    source_type: "github"
+    source_url: "https://github.com/Nicvank/mv-plugin-data-export"
+    tags: ["导出", "数据", "备份"]
+
+  - name: "stats-dashboard"
+    display_name: "统计仪表盘"
+    description: "记忆数据统计分析，图表展示趋势和分布"
+    version: "1.0.0"
+    author: "Memory Visions Team"
+    type: "analytics"
+    license: "MIT"
+    icon: "📊"
+    source_type: "github"
+    source_url: "https://github.com/Nicvank/mv-plugin-stats-dashboard"
+    tags: ["统计", "图表", "分析"]
+
+  - name: "theme-customizer"
+    display_name: "主题定制器"
+    description: "自定义应用主题颜色、字体、CSS 变量"
+    version: "1.0.0"
+    author: "Memory Visions Team"
+    type: "theme"
+    license: "MIT"
+    icon: "🎨"
+    source_type: "github"
+    source_url: "https://github.com/Nicvank/mv-plugin-theme-customizer"
+    tags: ["主题", "颜色", "自定义"]
