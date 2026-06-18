@@ -1,13 +1,13 @@
-# Memory Visions Plugin Marketplace
+# Memory Fragments Plugin Marketplace
 
 官方插件市场索引仓库。
 
 ## 使用方式
 
-1. 在 Memory Visions 应用中打开「插件市场」页面
+1. 在 Memory Fragments 应用中打开「插件市场」页面
 2. 添加本仓库地址作为市场源：
    ```
-   https://github.com/Nicvank/mv-plugins-marketplace
+   https://github.com/Nicvank/memory-fragments-plugins-marketplace
    ```
 3. 浏览并安装插件
 

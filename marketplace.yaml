@@ -1,18 +1,18 @@
-# Memory Visions 插件市场索引
+# Memory Fragments 插件市场索引
 # 此文件定义了市场中可用的插件列表
 # source_type: github (独立仓库) | embedded (本仓库内)
 
-name: "Official Memory Visions Plugins"
+name: "Official Memory Fragments Plugins"
 description: "官方插件市场 — 记忆碎片应用的扩展插件集合"
 version: "2.0.0"
-homepage: "https://github.com/Nicvank/mv-plugins-marketplace"
+homepage: "https://github.com/Nicvank/memory-fragments-plugins-marketplace"
 
 plugins:
   - name: "heatmap"
     display_name: "记忆热力图"
     description: "GitHub 风格的日历热力图，按年/月/日三级视图展示记忆活动分布"
     long_description: |
-      记忆热力图插件为 Memory Visions 提供 GitHub 贡献图风格的日历可视化。
+      记忆热力图插件为 Memory Fragments 提供 GitHub 贡献图风格的日历可视化。
 
       ## 功能特性
       - 📅 三级视图：年→月→日，逐级钻取
@@ -24,13 +24,13 @@ plugins:
       ## 使用方法
       启用插件后，侧边栏会出现「记忆热力图」入口。点击年份可钻取到月份视图，点击月份可查看日历。
     version: "2.0.0"
-    author: "Memory Visions Team"
+    author: "Memory Fragments Team"
     type: "visualization"
     license: "MIT"
     icon: "calendar"
     source_type: "github"
-    source_url: "https://github.com/Nicvank/mv-plugin-heatmap"
-    homepage: "https://github.com/Nicvank/mv-plugin-heatmap"
+    source_url: "https://github.com/Nicvank/memory-fragments-plugin-heatmap"
+    homepage: "https://github.com/Nicvank/memory-fragments-plugin-heatmap"
     tags: ["可视化", "日历", "热力图"]
     screenshots: []
     changelog: |
@@ -58,13 +58,13 @@ plugins:
       - 📋 导出历史记录
       - ⚙️ 可配置默认格式和叙事包含
     version: "2.0.0"
-    author: "Memory Visions Team"
+    author: "Memory Fragments Team"
     type: "tool"
     license: "MIT"
     icon: "export_icon"
     source_type: "github"
-    source_url: "https://github.com/Nicvank/mv-plugin-data-export"
-    homepage: "https://github.com/Nicvank/mv-plugin-data-export"
+    source_url: "https://github.com/Nicvank/memory-fragments-plugin-data-export"
+    homepage: "https://github.com/Nicvank/memory-fragments-plugin-data-export"
     tags: ["导出", "数据", "备份"]
     screenshots: []
     changelog: |
@@ -89,13 +89,13 @@ plugins:
       - 纯 CSS 柱状图、标签云、排行列表
       - 支持按周/月/年/全部切换时间粒度
     version: "2.0.0"
-    author: "Memory Visions Team"
+    author: "Memory Fragments Team"
     type: "analytics"
     license: "MIT"
     icon: "chart"
     source_type: "github"
-    source_url: "https://github.com/Nicvank/mv-plugin-stats-dashboard"
-    homepage: "https://github.com/Nicvank/mv-plugin-stats-dashboard"
+    source_url: "https://github.com/Nicvank/memory-fragments-plugin-stats-dashboard"
+    homepage: "https://github.com/Nicvank/memory-fragments-plugin-stats-dashboard"
     tags: ["统计", "图表", "分析"]
     screenshots: []
     changelog: |
@@ -107,7 +107,7 @@ plugins:
     display_name: "主题自定义"
     description: "自定义应用主题颜色、字体、CSS 变量，支持 5 个预设主题"
     long_description: |
-      主题自定义插件让你完全掌控 Memory Visions 的视觉风格。
+      主题自定义插件让你完全掌控 Memory Fragments 的视觉风格。
 
       ## 预设主题
       - 🌞 **默认** — 清爽蓝色
@@ -122,13 +122,13 @@ plugins:
       - 🔤 **字体管理** — 上传自定义字体（TTF/OTF/WOFF/WOFF2）
       - 📦 **导入/导出** — 主题配置文件导入导出
     version: "2.0.0"
-    author: "Memory Visions Team"
+    author: "Memory Fragments Team"
     type: "theme"
     license: "MIT"
     icon: "palette"
     source_type: "github"
-    source_url: "https://github.com/Nicvank/mv-plugin-theme-customizer"
-    homepage: "https://github.com/Nicvank/mv-plugin-theme-customizer"
+    source_url: "https://github.com/Nicvank/memory-fragments-plugin-theme-customizer"
+    homepage: "https://github.com/Nicvank/memory-fragments-plugin-theme-customizer"
     tags: ["主题", "颜色", "自定义", "字体"]
     screenshots: []
     changelog: |
